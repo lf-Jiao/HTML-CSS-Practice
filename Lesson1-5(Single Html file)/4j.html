@@ -1,0 +1,35 @@
+<style>
+  .stretch-button{
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    font-size: 25;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    transition: box-shadow 0.1s, margin-top 0.1s, margin-left 0.1s;
+  }
+
+  .stretch-button:active{
+    box-shadow: 0 0 0 rgba(0,0,0,0.2);
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+</style>
+
+<!--
+  In Question 4k:
+margin-top 0.1s, margin-left 0.1s 
+===>
+margin 0.1s
+-->
+
+
+<button class="stretch-button">
+  Shadow
+</button>
